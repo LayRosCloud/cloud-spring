@@ -1,2 +1,5 @@
 rootProject.name = 'cloud-spring'
 
+includeBuild 'eureka-server'
+includeBuild 'eureka-client'
+includeBuild 'gateway'
