@@ -1,6 +1,7 @@
 package by.betrayal.eurekaclient.controller;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,13 +11,16 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class TestController {
 
+    @Value("${eureka.instance.instance-id}")
+    private String uniqueValue;
+
     @GetMapping
     public String get() {
         log.info("Start get request!");
 
-        var message = "Hello, World!";
+        var message = uniqueValue;
 
-        log.info("End get request with result %s!", message);
+        log.info(String.format("End get request with result %s!", message));
 
         return message;
     }
