@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0437d11b-1beb-45ef-8c27-ed43ea9b6227" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/eureka-server">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/gateway">
       <ProjectState />
     </projectState>
   </component>
@@ -72,7 +76,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "2-module-eureka-client",
+    "git-widget-placeholder": "3-module-gateway",
     "jdk.selected.JAVA_MODULE": "jbr-17",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -133,8 +137,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="by.betrayal.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Gradle.eureka-server [dependencies]" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.EurekaClientApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
     </list>
@@ -153,7 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709644645379</updated>
       <workItem from="1709644646377" duration="5383000" />
-      <workItem from="1709651309635" duration="2564000" />
+      <workItem from="1709651309635" duration="4256000" />
     </task>
     <servers />
   </component>

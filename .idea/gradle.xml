@@ -17,6 +17,11 @@
                   <project path="$PROJECT_DIR$/eureka-server" />
                 </projects>
               </build>
+              <build path="$PROJECT_DIR$/gateway" name="gateway">
+                <projects>
+                  <project path="$PROJECT_DIR$/gateway" />
+                </projects>
+              </build>
             </builds>
           </compositeBuild>
         </compositeConfiguration>
@@ -27,6 +32,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/eureka-client" />
             <option value="$PROJECT_DIR$/eureka-server" />
+            <option value="$PROJECT_DIR$/gateway" />
           </set>
         </option>
       </GradleProjectSettings>
