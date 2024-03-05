@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0437d11b-1beb-45ef-8c27-ed43ea9b6227" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +55,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -75,7 +81,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "3-module-gateway",
+    "git-widget-placeholder": "module-load-balancer",
     "jdk.selected.JAVA_MODULE": "jbr-17",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -99,7 +105,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaClientApplication-inst3">
     <configuration name="eureka-server [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -122,7 +128,21 @@
       <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="EurekaClientApplication-inst1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="by.betrayal.eurekaclient.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication-inst2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="by.betrayal.eurekaclient.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication-inst3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-client.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="by.betrayal.eurekaclient.EurekaClientApplication" />
       <method v="2">
@@ -146,7 +166,9 @@
     <list>
       <item itemvalue="Gradle.eureka-server [dependencies]" />
       <item itemvalue="Spring Boot.GatewayApplication" />
-      <item itemvalue="Spring Boot.EurekaClientApplication" />
+      <item itemvalue="Spring Boot.EurekaClientApplication-inst1" />
+      <item itemvalue="Spring Boot.EurekaClientApplication-inst2" />
+      <item itemvalue="Spring Boot.EurekaClientApplication-inst3" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
     </list>
     <recent_temporary>
